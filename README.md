@@ -9,11 +9,11 @@
 
 + 首界面
 
-<img src="figures/fig1.png" />
+<img src="figures/fig1.PNG" />
 
 + 预约详情
 
-<img src="figures/fig2.png" />
+<img src="figures/fig2.PNG" />
 
 ## Features
 
