@@ -1,0 +1,127 @@
+/* Common styles */
+body {
+  font-family: "ptsans", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.btn {
+  outline: none;
+  color: black;
+  height:30px;
+  font-size:15px;
+  background-color: transparent;
+  box-shadow: 0 0 0 0;
+  margin-right: 3px;
+}
+
+.clearfix {
+  margin: 15px;
+}
+
+.form {
+  margin: auto;
+}
+
+.form input, .form select, .form textarea {
+  border-radius: 5px;
+  border: 1px solid #17a2b8;
+  outline: none;
+  background: none;
+  padding: 5px;
+  width: 100%;
+}
+
+/* App styles */
+.title {
+  text-align: center;
+  margin: 10px;
+}
+
+.calendar {
+  width: 90%;
+  margin: 10px auto;
+  font-size: 15px;
+}
+
+.calendar tr, .calendar td {
+  border: 0.5px solid black;
+}
+
+.calendar th {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.calendar td {
+  width: 150px;
+  height: 50px;
+  font-size: 10px;
+  padding: 20px 0px 0px 10px;
+}
+
+.month {
+  font-size: 15px;
+}
+
+.date {
+  font-size: 16px;
+}
+
+ul {
+  height: 100%;
+  padding: 0px 5px 0px 20px;
+}
+
+a {
+  color: #17a2b8;
+}
+
+
+$bg-color: #78ACCD;
+$white: #ffffff;
+$black: #333333;
+$gray: #7D8994;
+$orange: #DE6E46;
+$purple: #AE5989;
+
+$radius: 50%;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    background: $bg-color;
+    color: $black;
+    font-size: 1.5rem;
+	display: grid;
+}
+
+ul {
+    list-style: none;
+}
+
+
+body {
+    background: $white;
+    width: 90%;
+    margin: 10rem auto;
+    display: grid;
+    grid-template-rows: 5rem auto 10rem;
+    box-shadow: 0 1rem 25rem rgb(27, 64, 94);
+}

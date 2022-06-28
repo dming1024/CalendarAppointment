@@ -1,0 +1,20 @@
+{% extends "cal/base.html" %}
+{% block content %}
+
+<div id="search" style="text-align:center;">
+
+<div style="width:15%;margin:0 auto">
+<div style="text-align:left;"><strong>Reset Password</strong></div>
+
+<form action="{% url 'cal:updatePasswd' %}" method="get">
+  <div style="text-align:left;"><input name="Newpassword" type="password" value="abcd@1234" style="width:100%;"></div>
+	<br />
+  <div style="text-align:left;"><input type="submit" value="Update" style="width:80%;"></div>
+  <br />
+</form>
+
+
+</div>
+
+
+{% endblock %}

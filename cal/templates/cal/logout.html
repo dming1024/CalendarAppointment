@@ -1,0 +1,13 @@
+{% extends "cal/base.html" %}
+
+{% block content %}
+
+<div class="clearfix">
+  <a class="btn btn-info left" href="{% url 'cal:calendar' %}"> Calendar </a>
+</div>
+<!--Login-->
+<div class="container py-5">
+<h3>{{ message }}</h3>
+</div>
+
+{% endblock %}

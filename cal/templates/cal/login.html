@@ -1,0 +1,31 @@
+{% extends "cal/base.html" %}
+
+{% block title %}
+登 录
+{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<!--Login-->
+
+<div class="clearfix" style="margin:auto">
+
+  <h1>Login</h1>
+  <form method="POST">
+    {% csrf_token %}
+    {{ login_form|crispy }}
+	<br />
+    <button class="btn btn-primary" type="submit">Login</button>
+  </form>
+</div>
+
+<div class="clearfix">
+<br />
+<br />
+</div>
+<div class="clearfix">
+<br />
+<br />
+</div>
+{% endblock %}
