@@ -9,11 +9,11 @@
 
 + 首界面
 
-<img src="figures/fig1.png">
+<img src="./figures/fig1.png">
 
 + 预约详情
 
-<img src="figures/fig2.png">
+<img src="./figures/fig2.png">
 
 ## Features
 
@@ -25,9 +25,11 @@
 
 + 当前时间之前的Event，无法删除
 
-+ 用户只能修改、删除自己的Event时间
++ 用户只能修改、删除自己的Events
 
 
 ## Usage
 
-直接`git clone` 即可进行使用。
++ `git clone` , 下载本地，即可进行使用。
+
++ `py manage.py runserver`，运行该django app
